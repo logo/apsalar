@@ -1,0 +1,21 @@
+
+/**
+ * Apsalar logo.
+ */
+
+.logo[data-logo="Apsalar"] {
+  width: 0;
+}
+
+.logo[data-logo="Apsalar"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Apsalar"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Apsalar"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
